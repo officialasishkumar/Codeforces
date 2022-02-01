@@ -3,4 +3,4 @@
 
 ### In this repo, I will be sharing codeforces solution :)
 
-> #####Feel free to drop a comment or PR if you have anything which can improve this repo.
+> Feel free to drop a comment or PR if you have anything which can improve this repo.
