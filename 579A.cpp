@@ -1,7 +1,7 @@
 /*
 Author : Asish Kumar
 */
-// Problem link : https://codeforces.com/contest/912/problem/B
+// Problem link : https://codeforces.com/contest/579/problem/A
 
 //                   Codeforces Round #320 (Div. 2) [Bayan Thanks-Round]
 //                               A. Raising Bacteria
