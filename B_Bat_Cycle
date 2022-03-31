@@ -1,0 +1,62 @@
+/*
+Author : Asish Kumar
+*/
+// Problem link : https://codeforces.com/problemset/problem/1487/B
+
+//          Educational Codeforces Round 104 (Rated for Div. 2)
+//                        B. Cat Cycle
+
+#include <bits/stdc++.h>
+// #include <x86intrin.h>
+// #include <sys/resource.h>
+// #include <ext/pb_ds/assoc_container.hpp>
+// #include <ext/pb_ds/tree_policy.hpp>
+using namespace std;
+// using namespace __gnu_pbds;
+
+// Pragmas
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx2")
+
+#define v vector
+// Aliases
+using ll = long long;
+using ull = unsigned long long;
+using ld = long double;
+
+
+// Constants
+constexpr ll INF = 4e18;
+constexpr ld EPS = 1e-9;
+constexpr ll MOD = 1e9 + 7;
+
+#define int long long
+
+
+void solve(){
+    int n, k;
+    cin >> n >> k;
+    k--;
+    if(!(n%2)){
+        cout << k%n + 1 << endl;
+    }
+    else {
+        int gap = (k/(n/2));
+        cout << (gap +k)%n + 1 << endl;
+        // We will conxider the gap also for a valid answer
+        // Gap can be found be k/(n/2). This equation is based on observation.
+    }
+
+}
+
+int32_t main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    int t = 1;
+    cin >> t;
+    while (t--)
+    {
+        solve();
+    }
+}
